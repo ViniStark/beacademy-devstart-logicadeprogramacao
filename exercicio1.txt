@@ -1,0 +1,15 @@
+1.   	Sinalizar com a seta para a direita
+2.    	Estacionar em local apropriado
+3.    	Desligar o motor
+4.    	Ligar o pisca-alerta
+5.	Sair do carro
+6.    	Abrir o porta-malas e pegar o triângulo de sinalização
+7.    	Posicionar o triângulo em local adequado
+8.    	Pegar o estepe, a chave de roda e o macaco no porta-malas
+9.    	Com a chave, afrouxar os parafusos
+10.    	Com o macaco, levantar o carro
+11.    	Retirar o pneu furado
+12.	Encaixar o estepe
+13.    	Parafusar o estepe
+14.    	Abaixar o carro
+15.    	Guardar as ferramentas, o pneu e o triângulo

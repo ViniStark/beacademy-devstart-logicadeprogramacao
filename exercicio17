@@ -1,0 +1,67 @@
+Algoritmo "Exercicio17"
+
+VAR 
+    n1, n2, resultado: real 
+    operacao, novaOperacao: caractere 
+
+Inicio
+    escreval("Digite o primeiro número:")
+    leia(n1)
+    escreval("Digite a operação:")
+    leia(operacao)
+    escreval("Digite o segundo número:")
+    leia(n2)
+
+    escolha operacao
+        caso "+"
+            resultado: = n1 + n2
+        caso "-"
+            resultado: = n1 - n2
+        caso "*"
+            resultado: = n1 * n2
+        caso "/"
+            resultado: = n1 / n2
+        outrocaso
+            resultado: = -1
+    fimescolha 
+
+    se(resultado = -1) entao 
+        escreval("Operação inválida. Escolha entre +, -, * ou /)
+    senao 
+        escreval("Resultado: ", resultado)
+    fimse
+
+    escreval("Deseja realizar uma nova operação (s ou n)?)
+    leia(novaOperacao)
+
+    enquanto(novaOperacao = 's') faca 
+        escreval("Digite o primeiro número:")
+        leia(n1)
+        escreval("Digite a operação:")
+        leia(operacao)
+        escreval("Digite o segundo número:")
+        leia(n2)
+
+        escolha operacao
+            caso "+"
+                resultado: = n1 + n2
+            caso "-"
+                resultado: = n1 - n2
+            caso "*"
+                resultado: = n1 * n2
+            caso "/"
+                resultado: = n1 / n2
+            outrocaso
+                resultado: = -1
+        fimescolha 
+
+        se(resultado = -1) entao 
+            escreval("Operação inválida. Escolha entre +, -, * ou /)
+        senao 
+            escreval("Resultado: ", resultado)
+        fimse
+
+        escreval("Deseja realizar uma nova operação (s ou n)?)
+        leia(novaOperacao)
+    fimenquanto
+Fimalgoritmo

@@ -1,0 +1,19 @@
+algoritmo "Exercicio16"
+
+var nome: caractere
+var senha: caractere
+
+Inicio 
+    escreval("Login:")
+    leia(nome)
+    escreval("Senha:")
+    leia(senha)
+    enquanto(nao(nome = Marcos) e nao(senha = paylivre)){
+        escreval("Login:")
+        leia(nome)
+        escreval("Senha:")
+        leia(senha)
+    }
+    fimenquanto 
+    escreval("Bem vindo(a)!")
+Fimalgoritmo
